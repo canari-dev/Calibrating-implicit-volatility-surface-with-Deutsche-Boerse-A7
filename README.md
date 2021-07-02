@@ -26,6 +26,14 @@ You will need a Python 3.8 interpreter with the following packages :
 You will also need to download the python files provided in this git :
 DateAndTime.py, PricingAndCalibration.py, SetUp.py
 
+A7 allows you to preprocess the data with in a fast and efficient way. This will both drastically reduce the volume of data that you will need to important through the API and fasten the process as the preprocessing will run as a C++ code on Deutsche Boerse's servers.
+The API environnement on A7 websites helps you design a your preprocessing code (see doc on A7 website after loggin in). You can subsequently download and upload this code in a ".yml" format.
+For the purpose of this git, we have designed a simple preprocessing saves as minsize_level_tb.yml, available in the "code" folder of this git.
+It retains the Top Of Book (TOB, ie. first limit) of the order book, provided that the quantity available is more than a pre defined threshold. If not, it averages limit prices until finding the min quantity.
+
+This file must be loaded in your A7 environnement though A7 website prior to running the notebook.
+
+
 Here is the kind of graph that you can generate. (More details in the Jupyter Notebook)
 
 

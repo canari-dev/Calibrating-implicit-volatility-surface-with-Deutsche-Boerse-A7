@@ -1,6 +1,6 @@
 # Calibrating-implicit-volatility-surface-with-Deutsche-Boerse-A7
 _Canari.dev (www.canari.dev), Jan-2021_
-<br>
+<br><br>
 How to retrieve options intraday data from Deutsche Boerse A7 and calibrate a volatility surface.
 
 **This project showcases the possibilities offered by the API of Deutsche Boerse's A7 service.

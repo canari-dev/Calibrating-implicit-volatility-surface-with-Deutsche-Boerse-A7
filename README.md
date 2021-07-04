@@ -5,10 +5,11 @@ How to retrieve options intraday data from Deutsche Boerse A7 and calibrate a vo
 
 **This project showcases the possibilities offered by the API of Deutsche Boerse's A7 service.
 You will need a valid A7 subscription to run it.
-For this, please go to :
-https://www.mds.deutsche-boerse.com/mds-en/analytics/A7-analytics-platform
-Once you have been registered as a A7 user, connect to the A7 website in order to get an API token :
-https://a7.deutsche-boerse.com/
+For this, please go to : <br>
+https://www.mds.deutsche-boerse.com/mds-en/analytics/A7-analytics-platform**
+
+**Once you have been registered as a A7 user, connect to the A7 website in order to get an API token :
+https://a7.deutsche-boerse.com/ <br>
 After logging in, click on the face icon next to your name on the top right of the page and then select API Token generation.**
 
 A general example of how to retrieve data from the API is given at https://deutsche-boerse.github.io/a7/usecases/02_simple_rdi.html
